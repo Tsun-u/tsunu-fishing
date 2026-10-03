@@ -143,5 +143,16 @@
   renderHeader();renderBag();renderDex();setPhase('idle','池水靜悄悄，今天會遇見誰呢？');
 })();
 </script>
+<script src="savebox.js"></script>
+<script>
+  SaveBox.init({
+    game: 'tsunu-fishing',
+    keys: ['weirdPondSaveV1'],
+    clientId: '674654433726-tq25dneafbu0pm39pq6kl2kpdmgmnh3f.apps.googleusercontent.com',
+  });
+  document.querySelector('#bagScreen h1').after(SaveBox.button(
+    'margin:0 auto 0 10px;border:none;border-radius:12px;background:rgba(255,255,255,.25);' +
+    'font-size:20px;width:44px;height:38px;cursor:pointer;'));
+</script>
 </body>
 </html>
