@@ -1,6 +1,7 @@
 {
   "name": "千望的怪怪釣魚日",
   "short_name": "怪怪釣魚日",
+  "id": "/tsunu-fishing/app-v2",
   "start_url": "./",
   "scope": "./",
   "display": "standalone",
